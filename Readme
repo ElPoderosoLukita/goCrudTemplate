@@ -1,0 +1,4 @@
+.- The server runs in localhost:8081
+.- The handlers are in ./handlers
+.- The templates are in ./templates
+.- The assets are in ./assets
