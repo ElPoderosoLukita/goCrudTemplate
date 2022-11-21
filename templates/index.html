@@ -1,0 +1,29 @@
+{{ define "index" }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Página principal</h1>
+
+    <p>Selecciona uno de los links</p>
+    <ul>
+        <li><a href="get/users">/get/users</a></li>
+        <li><a href="get/user">/get/users/</a><span>{id}</span></li>
+    </ul>
+
+    <br>
+    <h2>Links para ejecutar en postman/insomnia</h2>
+    <ul>
+        <li>http:localhost:8081/post/user/{id}</li>
+        <li>http:localhost:8081/update/user/{id}</li>
+        <li>http:localhost:8081/delete/user/{id}</li>
+    </ul>
+</body>
+</html>
+{{end}}
